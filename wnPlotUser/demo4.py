@@ -38,5 +38,5 @@ m.fillcontinents()
 m.drawparallels(np.arange(-90,90,20),labels=[1,1,0,1])
 # draw meridians
 m.drawmeridians(np.arange(-180,180,30),labels=[1,1,0,1])
-ax.set_title('Great Circle from New York to London')
+#ax.set_title('Great Circle from New York to London')
 plt.show()
